@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="18" tilewidth="40" tileheight="40">
+ <tileset firstgid="1" name="Tiles" tilewidth="40" tileheight="40">
+  <image source="tiles.png" width="160" height="160"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="speedBoost" value=""/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="die" value=""/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="goal" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBxgzDRAeNR+8uxnprL9xKYLQuqIFSPG/yBxFjSMy35s8shi5IQ/PfLXUE1/1EqP2OwfLf+Glv2UhCWxekiJS0JlBa6yiZ6YFYpHqv3IGAA/UwOq
+  </data>
+ </layer>
+</map>
